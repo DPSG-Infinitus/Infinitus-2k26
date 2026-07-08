@@ -1275,16 +1275,27 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        padding: 1rem 1rem !important;
+    }
+    header.scrolled {
+        padding: 0.75rem 1rem !important;
+    }
+
+    #header-register-cta {
+        display: none !important;
+    }
+
     .hamburger {
         display: block;
     }
     
     .nav-links {
         position: fixed;
-        top: 80px;
+        top: 72px;
         right: -100%;
         width: 240px;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 72px);
         background: rgba(25, 23, 34, 0.98);
         flex-direction: column;
         align-items: center;
@@ -1299,6 +1310,10 @@ footer {
     
     nav {
         gap: 1rem;
+    }
+
+    .countdown-widget {
+        padding: 1.5rem !important;
     }
     
     .hero-heading {
