@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website for INFINITUS 14.0 - Annual Inter-School IT Fest, organized by Delhi Public School Ghaziabad (DPSG) Meerut Road on 21st July 2026. Theme: Cognition: Ghost in the Machine.">
+    <title>INFINITUS 14.0 | Delhi Public School Ghaziabad</title>
+    <link rel="icon" type="image/x-icon" href="WhatsApp_Image_2026-07-08_at_12.57.24-removebg-preview.png">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Header -->
+    <header>
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-crest-img-container">
+                    <img src="logo.png" alt="Infinitus Logo" class="logo-crest-img">
+                </div>
+                <div class="logo-text-block">
+                    <span class="logo-text">Infinitus</span>
+                    <span class="logo-tag">14.0</span>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="cta-button" id="header-register-cta" style="display: inline-block; text-align: center;">Register</a>
+            </nav>
+            <button class="hamburger" aria-label="Toggle navigation">
+                Menu
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="section active">
+            <!-- Full Width Hero Banner Cover -->
+            <div class="banner-container">
+                <img src="infinitus_banner.jpeg" alt="Infinitus 14.0 Fest Banner" class="hero-banner-img">
+            </div>
+
+            <!-- Hero Split Layout -->
+            <div class="hero-split">
+                <div class="hero-content">
+                    <p class="hero-sub">/// DPSG IT FEST 2026 ///</p>
+                    <h1 class="hero-heading">Infinitus <span>14.0</span></h1>
+                    <p class="hero-desc">
+                        Welcome to the 14th annual Information Technology festival hosted by 
+                        <strong>Delhi Public School Ghaziabad, Meerut Road</strong>. Under the theme 
+                        <strong><em>"Cognition: Ghost in the Machine"</em></strong>, we challenge you to examine the uncanny 
+                        boundary where human consciousness blends with cold, infinite silicon networks.
+                    </p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="cta-button" id="home-register-cta" style="display: inline-block; text-align: center;">Register</a>
+                </div>
+
+                <!-- Circular Countdown Widget -->
+                <div class="countdown-widget">
+                    <div class="countdown-widget-title">Grand Finale Countdown</div>
+                    <div class="countdown-circle-grid">
+                        <div class="countdown-circle">
+                            <div class="countdown-num" id="days-val">00</div>
+                            <div class="countdown-lbl">Days</div>
+                        </div>
+                        <div class="countdown-circle">
+                            <div class="countdown-num" id="hours-val">00</div>
+                            <div class="countdown-lbl">Hours</div>
+                        </div>
+                        <div class="countdown-circle">
+                            <div class="countdown-num" id="minutes-val">00</div>
+                            <div class="countdown-lbl">Mins</div>
+                        </div>
+                        <div class="countdown-circle">
+                            <div class="countdown-num" id="seconds-val">00</div>
+                            <div class="countdown-lbl">Secs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Stats -->
+            <div class="stats-layout">
+                <div class="stats-item">
+                    <div class="stats-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+                    <div class="stats-number" id="stat-participants">0+</div>
+                    <div class="stats-label">Participants</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="stats-number" id="stat-schools">0+</div>
+                    <div class="stats-label">Schools</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-icon"><i class="fa-solid fa-gamepad"></i></div>
+                    <div class="stats-number" id="stat-events">0</div>
+                    <div class="stats-label">Hybrid Events</div>
+                </div>
+            </div>
+
+            <!-- About Quote -->
+            <div class="about-quote">
+                <p class="about-quote-text">
+                    "The best way to predict the future is to create it."
+                </p>
+                <p class="about-quote-author">— Alan Kay</p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="glass-card timeline-card">
+                <h3 class="section-title" style="font-size: 1.5rem; margin-bottom: 3rem; text-align: center;">Official Timeline</h3>
+                
+                <div class="timeline-winding">
+                    <!-- Step 1 (Left-aligned circle) -->
+                    <div class="timeline-winding-item item-left">
+                        <div class="timeline-node">1</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-detail-title">01<span>st</span> July — Portal Open</h4>
+                            <p class="timeline-detail-desc">Institutions submit registrations and select target events on the official system portal.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 (Right-aligned circle) -->
+                    <div class="timeline-winding-item item-right">
+                        <div class="timeline-node">2</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-detail-title">15<span>th</span> July — Portal Close</h4>
+                            <p class="timeline-detail-desc">Registration cutoff. No late or on-site registrations will be accommodated after this date.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 (Left-aligned circle) -->
+                    <div class="timeline-winding-item item-left">
+                        <div class="timeline-node">3</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-detail-title">16<span>th</span> - 18<span>th</span> July — Prelims Round</h4>
+                            <p class="timeline-detail-desc">Online preliminary rounds and submissions for Web Designing & Scratch competitions, followed by the announcement of finalists.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 (Right-aligned circle) -->
+                    <div class="timeline-winding-item item-right">
+                        <div class="timeline-node">4</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-detail-title">21<span>st</span> July — Grand Finale</h4>
+                            <p class="timeline-detail-desc" style="margin-bottom: 1.5rem;">The ultimate battleground. Offline coding challenges, final presentations, combat rover arena runs, and the closing prize ceremony. Detailed itinerary:</p>
+                            
+                            <div class="itinerary-grid">
+                                <div class="itinerary-item">
+                                    <div class="itinerary-time">08:30 AM</div>
+                                    <div class="itinerary-event">Reporting & Setup</div>
+                                </div>
+                                <div class="itinerary-item">
+                                    <div class="itinerary-time">09:00 AM</div>
+                                    <div class="itinerary-event">Inauguration Ceremony</div>
+                                </div>
+                                <div class="itinerary-item">
+                                    <div class="itinerary-time">09:30 AM</div>
+                                    <div class="itinerary-event">Event Runs (Coding & Combat)</div>
+                                </div>
+                                <div class="itinerary-item">
+                                    <div class="itinerary-time">12:30 PM</div>
+                                    <div class="itinerary-event">Prize Distribution & Closing</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENTS SECTION -->
+        <section id="events" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Championship Events</h2>
+                <p class="section-subtitle">Battlegrounds of Cognition</p>
+            </div>
+
+            <div class="events-filter-bar">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Events</button>
+                    <button class="filter-btn" data-filter="online">Online</button>
+                    <button class="filter-btn" data-filter="offline">Offline</button>
+                    <button class="filter-btn" data-filter="middle">Junior (IV-VIII)</button>
+                    <button class="filter-btn" data-filter="high">Senior (IX-XII)</button>
+                </div>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="event-search" placeholder="Search event databases...">
+                </div>
+            </div>
+
+            <div class="events-grid">
+                <!-- Event 1: Redstone Rebellion -->
+                <div class="glass-card event-card" data-mode="online" data-eligibility="middle">
+                    <div class="event-poster-container">
+                        <img src="redstone_rebellion.jpeg" alt="Redstone Rebellion Poster" class="event-poster-img">
+                    </div>
+                    <div class="event-content-container">
+                        <div class="event-top">
+                            <div class="event-badge-container">
+                                <span class="event-badge mode-online">Online</span>
+                                <span class="event-badge class-eligibility">Classes VI-VII</span>
+                            </div>
+                            <h3 class="event-name">Redstone Rebellion</h3>
+                            <p class="event-description">
+                                A Minecraft creative building competition where young engineers design and construct an innovative virtual world. 
+                                Build worlds based on our theme "Cognition: Ghost in the Machine" live under strict time limits.
+                            </p>
+                        </div>
+                        <div class="event-details-bottom">
+                            <ul class="event-meta">
+                                <li><span class="event-meta-label">Composition:</span> <span class="event-meta-value">Max 2 per team</span></li>
+                                <li><span class="event-meta-label">Platform:</span> <span class="event-meta-value">Java / Bedrock Edition</span></li>
+                                <li><span class="event-meta-label">Duration:</span> <span class="event-meta-value">1.5 Hours live build</span></li>
+                                <li><span class="event-meta-label">Coordinator:</span> <span class="event-meta-value">Aadhya (+91 96671 67366)</span></li>
+                            </ul>
+                            <div class="event-actions">
+                                <a href="Brochure.pdf" download="Infinitus_2026_Brochure.pdf" class="event-btn event-btn-download">Download Rulebook</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="event-btn event-btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 2: Sentient Script -->
+                <div class="glass-card event-card" data-mode="online" data-eligibility="middle">
+                    <div class="event-poster-container">
+                        <img src="sentient_script.jpeg" alt="Sentient Script Poster" class="event-poster-img">
+                    </div>
+                    <div class="event-content-container">
+                        <div class="event-top">
+                            <div class="event-badge-container">
+                                <span class="event-badge mode-online">Online</span>
+                                <span class="event-badge class-eligibility">Classes IV-V</span>
+                            </div>
+                            <h3 class="event-name">Sentient Script</h3>
+                            <p class="event-description">
+                                A digital cinematic and animation competition. Script, design, and render an original Scratch-based video 
+                                visually exploring the transition of cold, linear code awakening into conscious self-aware thought.
+                            </p>
+                        </div>
+                        <div class="event-details-bottom">
+                            <ul class="event-meta">
+                                <li><span class="event-meta-label">Composition:</span> <span class="event-meta-value">Max 2 per team</span></li>
+                                <li><span class="event-meta-label">Platform:</span> <span class="event-meta-value">Scratch exclusively</span></li>
+                                <li><span class="event-meta-label">Submission:</span> <span class="event-meta-value">MP4 Export by 20th July</span></li>
+                                <li><span class="event-meta-label">Coordinator:</span> <span class="event-meta-value">Sameer (+91 88265 59665)</span></li>
+                            </ul>
+                            <div class="event-actions">
+                                <a href="Brochure.pdf" download="Infinitus_2026_Brochure.pdf" class="event-btn event-btn-download">Download Rulebook</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="event-btn event-btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 3: Cortex -->
+                <div class="glass-card event-card" data-mode="offline" data-eligibility="high">
+                    <div class="event-poster-container">
+                        <img src="cortex.jpeg" alt="Cortex Poster" class="event-poster-img">
+                    </div>
+                    <div class="event-content-container">
+                        <div class="event-top">
+                            <div class="event-badge-container">
+                                <span class="event-badge mode-offline">Offline</span>
+                                <span class="event-badge class-eligibility">Classes VII-XII</span>
+                            </div>
+                            <h3 class="event-name">Cortex</h3>
+                            <p class="event-description">
+                                Showcase functional working tech prototypes (software, hardware, or AI) that solve real-world problems. 
+                                This is a live demonstration of working systems. Pitch your engineering creations to a panel of expert judges.
+                            </p>
+                        </div>
+                        <div class="event-details-bottom">
+                            <ul class="event-meta">
+                                <li><span class="event-meta-label">Composition:</span> <span class="event-meta-value">2 to 4 per team</span></li>
+                                <li><span class="event-meta-label">Pitch Time:</span> <span class="event-meta-value">4 Mins Pitch + 2 Mins Q&A</span></li>
+                                <li><span class="event-meta-label">Mandatory:</span> <span class="event-meta-value">Physical prototype</span></li>
+                                <li><span class="event-meta-label">Coordinator:</span> <span class="event-meta-value">Parth Garg (+91 97163 61010)</span></li>
+                            </ul>
+                            <div class="event-actions">
+                                <a href="Brochure.pdf" download="Infinitus_2026_Brochure.pdf" class="event-btn event-btn-download">Download Rulebook</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="event-btn event-btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 4: Quantum Clash -->
+                <div class="glass-card event-card" data-mode="offline" data-eligibility="high">
+                    <div class="event-poster-container">
+                        <img src="quantum.jpeg" alt="Quantum Clash Poster" class="event-poster-img">
+                    </div>
+                    <div class="event-content-container">
+                        <div class="event-top">
+                            <div class="event-badge-container">
+                                <span class="event-badge mode-offline">Offline</span>
+                                <span class="event-badge class-eligibility">Classes VIII-XII</span>
+                            </div>
+                            <h3 class="event-name">Quantum Clash</h3>
+                            <p class="event-description">
+                                A high-octane robocar combat tournament where custom-built engineered rovers clash in a closed arena. 
+                                Battle to immobilize your opponents under strict weight, time, and weapons constraints.
+                            </p>
+                        </div>
+                        <div class="event-details-bottom">
+                            <ul class="event-meta">
+                                <li><span class="event-meta-label">Composition:</span> <span class="event-meta-value">2 to 3 per team</span></li>
+                                <li><span class="event-meta-label">Weight Limit:</span> <span class="event-meta-value">5 kg Max (±5%)</span></li>
+                                <li><span class="event-meta-label">Control Type:</span> <span class="event-meta-value">Wireless Remote Control Only</span></li>
+                                <li><span class="event-meta-label">Coordinator:</span> <span class="event-meta-value">Yojan (+91 81787 34345)</span></li>
+                            </ul>
+                            <div class="event-actions">
+                                <a href="Brochure.pdf" download="Infinitus_2026_Brochure.pdf" class="event-btn event-btn-download">Download Rulebook</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="event-btn event-btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 5: The Nexus Node -->
+                <div class="glass-card event-card" data-mode="offline" data-eligibility="high">
+                    <div class="event-poster-container">
+                        <img src="nexus_node.jpeg" alt="The Nexus Node Poster" class="event-poster-img">
+                    </div>
+                    <div class="event-content-container">
+                        <div class="event-top">
+                            <div class="event-badge-container">
+                                <span class="event-badge mode-offline">Offline</span>
+                                <span class="event-badge class-eligibility">Classes VIII-XII</span>
+                            </div>
+                            <h3 class="event-name">The Nexus Node</h3>
+                            <p class="event-description">
+                                A frontend web development and UI/UX design competition. Design and code a responsive, multi-page website 
+                                representing the definite interface for an awakened, self-aware cybernetic neural network.
+                            </p>
+                        </div>
+                        <div class="event-details-bottom">
+                            <ul class="event-meta">
+                                <li><span class="event-meta-label">Composition:</span> <span class="event-meta-value">1 team of 2 per school</span></li>
+                                <li><span class="event-meta-label">Requirements:</span> <span class="event-meta-value">HTML/CSS/JS or Frameworks</span></li>
+                                <li><span class="event-meta-label">Scope:</span> <span class="event-meta-value">Min 4 functional pages</span></li>
+                                <li><span class="event-meta-label">Coordinator:</span> <span class="event-meta-value">Dhruv (+91 77038 16431)</span></li>
+                            </ul>
+                            <div class="event-actions">
+                                <a href="Brochure.pdf" download="Infinitus_2026_Brochure.pdf" class="event-btn event-btn-download">Download Rulebook</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="event-btn event-btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 6: PyQuest -->
+                <div class="glass-card event-card" data-mode="offline" data-eligibility="high">
+                    <div class="event-poster-container">
+                        <img src="pyquest.jpeg" alt="PyQuest Poster" class="event-poster-img">
+                    </div>
+                    <div class="event-content-container">
+                        <div class="event-top">
+                            <div class="event-badge-container">
+                                <span class="event-badge mode-offline">Offline</span>
+                                <span class="event-badge class-eligibility">Classes IX-XII</span>
+                            </div>
+                            <h3 class="event-name">PyQuest</h3>
+                            <p class="event-description">
+                                A Python-focused competitive coding tournament. Solves real-world algorithmic problems under strict 
+                                time constraints. Showcase your programming efficiency, execution correctness, and data structure speed.
+                            </p>
+                        </div>
+                        <div class="event-details-bottom">
+                            <ul class="event-meta">
+                                <li><span class="event-meta-label">Composition:</span> <span class="event-meta-value">1 team of 2 per school</span></li>
+                                <li><span class="event-meta-label">Language:</span> <span class="event-meta-value">Python ONLY</span></li>
+                                <li><span class="event-meta-label">Environment:</span> <span class="event-meta-value">Standard Offline IDEs</span></li>
+                                <li><span class="event-meta-label">Coordinator:</span> <span class="event-meta-value">Suvigya (+91 99714 64431)</span></li>
+                            </ul>
+                            <div class="event-actions">
+                                <a href="Brochure.pdf" download="Infinitus_2026_Brochure.pdf" class="event-btn event-btn-download">Download Rulebook</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqdD9VF0ZblLhv7MgpYp3K8DxVfkmwyIF5JoR3naPu_pA9XQ/viewform?usp=sharing&ouid=100926556111779426770" target="_blank" class="event-btn event-btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEAM SECTION -->
+        <section id="team" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Secretariat & Organizers</h2>
+                <p class="section-subtitle">Operators of the Grid</p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Teacher-in-Charge -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Mohit Saras</h3>
+                    <p class="team-role">Teacher-in-Charge</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 98913 89128</p>
+                        <p><i class="fa-solid fa-envelope"></i> mohits.mr@dpsgs.org</p>
+                    </div>
+                </div>
+
+                <!-- President / Lead Sameer -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Sameer</h3>
+                    <p class="team-role">President & Cortex Lead</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 88265 59665</p>
+                        <p><i class="fa-brands fa-discord"></i> samxeer._</p>
+                    </div>
+                </div>
+
+                <!-- Vice President Yojan -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-user-ninja"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Yojan Singhall</h3>
+                    <p class="team-role">VP & Quantum Clash Lead</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 81787 34345</p>
+                        <p><i class="fa-brands fa-instagram"></i> yojan_singhall</p>
+                    </div>
+                </div>
+
+                <!-- Design Lead Aadhya -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-user-secret"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Aadhya</h3>
+                    <p class="team-role">Design Head & Minecraft Lead</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 96671 67366</p>
+                        <p><i class="fa-brands fa-discord"></i> caappyyyy_29514</p>
+                    </div>
+                </div>
+
+                <!-- Web Lead Dhruv -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Dhruv</h3>
+                    <p class="team-role">Web Dev Lead & Nexus Node Lead</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 77038 16431</p>
+                        <p><i class="fa-brands fa-discord"></i> dr.localhost</p>
+                    </div>
+                </div>
+
+                <!-- Coding Lead Suvigya -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Suvigya</h3>
+                    <p class="team-role">Tech Lead & PyQuest Lead</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 99714 64431</p>
+                        <p><i class="fa-brands fa-discord"></i> someone_8374</p>
+                    </div>
+                </div>
+
+                <!-- Cortex Coordinator Parth -->
+                <div class="glass-card team-card">
+                    <div class="team-avatar-container">
+                        <div class="team-avatar">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                    </div>
+                    <h3 class="team-name">Parth Garg</h3>
+                    <p class="team-role">Tech Lead and Cortex Coordinator</p>
+                    <div class="team-contact-info">
+                        <p><i class="fa-solid fa-phone"></i> +91 97163 61010</p>
+                        <p><i class="fa-brands fa-discord"></i> .patreg</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Inquire & Contact</h2>
+                <p class="section-subtitle">Establish Connection</p>
+            </div>
+
+            <div class="contact-container">
+                <!-- Contact Info Panel -->
+                <div class="glass-card contact-info-panel">
+                    <h3 class="section-subtitle" style="margin-bottom: 1.5rem;">Information Nodes</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>Delhi Public School Ghaziabad,<br>Site #3, Meerut Road Industrial Area,<br>Ghaziabad, Uttar Pradesh 201003</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Support Email</h4>
+                            <p><a href="mailto:itfest.mrd@dpsgs.org" style="color: var(--text-muted); text-decoration: none; transition: var(--transition-fast);">itfest.mrd@dpsgs.org</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Key Phone Contacts</h4>
+                            <p>Teacher-in-Charge: +91 98913 89128<br>President: +91 88265 59665</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                        <div class="contact-details">
+                            <h4>Social Outlets</h4>
+                            <p><a href="https://linktr.ee/Infinitus2026" target="_blank" style="color: var(--accent-purple-pale); text-decoration: none;">linktr.ee/Infinitus2026 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Campus Map Panel -->
+                <div class="glass-card contact-map-card">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.7895085186255!2d77.43441087531557!3d28.68905647563539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1a78ccda081%3A0x85c1f8742d030551!2sDelhi%20Public%20School%20Ghaziabad!5e0!3m2!1sen!2sin!4v1720373000000!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#home" class="logo" style="margin-bottom: 0.5rem;">
+                    <div class="logo-crest-img-container">
+                        <img src="logo.png" alt="Infinitus Logo" class="logo-crest-img">
+                    </div>
+                    <div class="logo-text-block">
+                        <span class="logo-text" style="font-size: 1.1rem;">Infinitus</span>
+                        <span class="logo-tag" style="font-size: 0.65rem;">14.0</span>
+                    </div>
+                </a>
+                <p class="footer-school">Delhi Public School Ghaziabad, Meerut Road</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DPSG Meerut Road. All rights reserved. <span>INFINITUS 14.0</span>.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

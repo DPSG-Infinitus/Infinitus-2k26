@@ -1,0 +1,49 @@
+Implementation Plan - Site Revisions & Asset Upgrades
+This plan details the changes to remove the Gallery, add the newly uploaded logo.png logo, make the timeline interactive, adjust the event card photo dimensions, update contact email references, and embed a live Google Map for school navigation.
+
+User Review Required
+IMPORTANT
+
+Key Refinements:
+
+Gallery Removal:
+The Gallery section and all navigation links pointing to #gallery (header and footer) will be deleted.
+Timeline Interaction:
+We will replace the static timeline grid with an interactive scheduling deck.
+Users can click on date tabs (01st July, 15th July, 16th-18th July, 21st July) to dynamically toggle detail summaries below them.
+The July 21st (Grand Finale) tab will present a detailed itinerary timeline grid (Reporting, Inauguration, Runs, Prize Distribution).
+Navbar Logo:
+The text crest "I" in the navbar and footer will be replaced with an image element loading the newly uploaded logo.png (assets/logo.png).
+Event Photo Dimensions:
+The left-side poster box on each event card will be set to a fixed, clean width of 180px (with column stacking on mobile), preventing excessive stretching or cropping.
+Live Campus Map & Contact Email:
+Replace the map placeholder with a live, responsive iframe embedding Delhi Public School Ghaziabad, Meerut Road from Google Maps.
+Update all support email references to infinitus2026@gmail.com.
+Proposed Changes
+Styles & Templates
+[MODIFY] 
+style.css
+Add styling rules for .logo-crest-img-container and .logo-crest-img to frame the logo correctly.
+Clean up unused gallery page styles.
+Set fixed width for event poster boxes to 180px (flex-shrink: 0) and adjust mobile overrides.
+Add styles for the interactive timeline controls (.timeline-nav, .timeline-nav-btn, .timeline-details-content, .itinerary-grid).
+[MODIFY] 
+index.html
+Replace navbar and footer text crests with the assets/logo.png image.
+Delete the entire #gallery markup section and corresponding navigation anchor items.
+Structure the interactive timeline navigation nodes and detail panels inside the #home section.
+Insert the Google Maps iframe inside the contact section.
+Update support email occurrences to infinitus2026@gmail.com.
+[MODIFY] 
+app.js
+Add the click handler logic to toggle active states on timeline navigation buttons and swap timeline text cards smoothly.
+Verification Plan
+Manual Verification
+Open 
+index.html
+ locally.
+Confirm that logo.png renders cleanly inside the navigation header.
+Verify that the Gallery links and section are gone.
+Click on different dates in the timeline and check that details update smoothly.
+Scroll to the Contact section and confirm that the Google Map renders and is interactive.
+Verify that emails link to infinitus2026@gmail.com.
