@@ -1049,6 +1049,12 @@ main {
     margin-bottom: 2px;
 }
 
+.team-contact-info i {
+    width: 16px;
+    text-align: center;
+    margin-right: 6px;
+}
+
 
 
 /* CONTACT PAGE Styles */
